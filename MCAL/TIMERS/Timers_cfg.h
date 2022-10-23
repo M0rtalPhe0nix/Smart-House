@@ -1,0 +1,32 @@
+/*
+ * Timers_cfg.h
+ *
+ *  Created on: Sep 9, 2022
+ *      Author: mortalphoenix
+ */
+
+#ifndef MCAL_TIMERS_TIMERS_CFG_H_
+#define MCAL_TIMERS_TIMERS_CFG_H_
+
+#include "../../STD_TYPES.h"
+#include "../../MACROS.h"
+#include "../REGISTERS_ADDRESSES.h"
+
+
+
+#define TIMER0_ENABLE 0
+#define TIMER0_PRESCALER_CODE CLK_NO_PRESCALER
+#define TIMER0_TICK_TIME CLK_TICK_TIME
+
+#define TIMER1_ENABLE 1
+#define TIMER1_PRESCALER_CODE CLK_NO_PRESCALER
+#define TIMER1_TICK_TIME CLK_TICK_TIME
+#define TIMER1_PRESCALER 1
+
+#define TIMER2_ENABLE 0
+#define TIMER2_PRESCALER_CODE TIMER2_CLK_64_PRESCALER
+#define TIMER2_TICK_TIME CLK_64_TICK_TIME
+
+#define ICU_ENABLE 0
+
+#endif /* MCAL_TIMERS_TIMERS_CFG_H_ */
